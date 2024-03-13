@@ -1,0 +1,58 @@
+{
+  "links": {
+    "home": "主页",
+    "products": "产品分类",
+    "contact": "联络信息",
+    "search": "站内搜索",
+    "oem": "定制服务",
+    "application": "应用",
+    "guide": "定制服务 指南",
+    "case": "定制服务 案例",
+    "about":"关于我们",
+    "buy":"哪里购买",
+    "hotLine":"服务热线",
+    "test":"这是一个test页面"
+  },
+  "msg":{
+    "submit":"提 交",
+    "notice":"给我们发信息",
+    "inquire":"需求",
+    "name":"姓名",
+    "email":"邮箱",
+    "mobile":"手机",
+    "address":"地址",
+    "productName":"产品名称",
+    "qty":"数量",
+    "unit":"单位",
+    "specification":"描述",
+    "contactInfomation":"联系信息",
+    "where":"哪里购买",
+    "submitSuccess":"提交成功!",
+    "submitFail":"提交失败!",
+    "msg":"您的留言",
+    "tip":"提示",
+    "notice-t":"请留下正确的电子邮件和电话，我们会在一个工作日内回复您。",
+    "name-t":"请输入您的姓名。",
+    "email-t":"请输入您的邮箱地址。",
+    "email-e-t":"请输入您正确的邮箱地址。",
+    "message-t":"请输入您的留言信息。",
+    "search-p":"请输入关键词"
+
+  },
+  "product":{
+    "FEATURES":"产品特征",
+    "TECH SPECS":"技术参数",
+    "FAQ":"常见问题",
+    "NoData":"暂无商品。",
+    "FAQS":"常见问题"
+  },
+  "home": {
+    "hotGoods": "热销商品",
+    "title": "Bienvenue",
+    "introduction": "Ceci est un texte d'introduction en Français."
+  },
+  "about": {
+    "title": "À propos",
+    "introduction": "Cette page est faite pour vous donner plus d'informations."
+  }
+}

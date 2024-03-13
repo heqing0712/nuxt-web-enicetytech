@@ -1,0 +1,60 @@
+{
+  "links": {
+    "home": "INICIO",
+    "products": "PRODUCTOS",
+    "contact": "CONTÁCTENOS",
+    "search": "SEARCH",
+    "oem": "OEM/ODM",
+    "application":  "SOLICITUD",
+    "guide": "OEM/ODM Guide",
+    "case": "OEM/ODM Case",
+    "hotLine":"Hot Line",
+    "about":"SOBRE NOSOTROS",
+    "buy":"WHERE TO BUY",
+    "test":"This is a test page"
+  },
+  "msg":{
+    "submit":"Submit",
+    "notice":"Send us a Message",
+    "inquire":"Inquire",
+    "name":"Name",
+    "email":"E-mail",
+    "mobile":"Phone",
+    "address":"Address",
+    "productName":"Product Name",
+    "qty":"Qty",
+    "unit":"Unit",
+    "specification":"Specification",
+    "contactInfomation":"Contact Infomation",
+    "where":"Where to buy",
+    "submitSuccess":"Submitted successfully!",
+    "submitFail":"Submitted fail!",
+    "msg":"Your message",
+    "tip":"Warning",
+    "notice-t":"Please leave right E-mail and phone, We'll get back to you within one business day.",
+    "name-t":"Please enter your name.",
+    "email-t":"Please enter your E-mail.",
+    "email-e-t":"Please enter your correct E-mail.",
+    "message-t":"Please enter your message.",
+    "search-p":"search"
+
+  },
+
+  "product":{
+    "FEATURES":"FEATURES",
+    "TECH SPECS":"TECH SPECS",
+    "FAQ":"FAQ",
+    "NoData":"No goods available.",
+    "FAQS":"FAQS"
+
+  },
+  "home": {
+    "hotGoods": "Best Sellers",
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

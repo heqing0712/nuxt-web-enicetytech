@@ -1,0 +1,132 @@
+@import "./css/normalize.css";
+@import "./css/reset.css";
+@import "./css/font.css";
+@import "./css/style.css";
+@import "./variables.scss";
+@import "./home.scss";
+
+.body-container {
+  min-height: calc(100vh - 233px);
+}
+.footer-box {
+  .copyright p {
+    margin-bottom: 0;
+  }
+  .h-row {
+    margin: 0;
+  }
+}
+
+.row:after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: "";
+}
+.col {
+  float: left;
+}
+.col12 {
+  float: left;
+  width: 100%;
+}
+.col1 {
+  width: 8.33333333%;
+}
+.col2 {
+  width: 16.66666667%;
+}
+.col3 {
+  width: 25%;
+}
+.col4 {
+  width: 33.33333333%;
+}
+.col5 {
+  width: 41.66666667%;
+}
+.col6 {
+  width: 50%;
+}
+.col7 {
+  width: 58.33333333%;
+}
+.col8 {
+  width: 66.66666667%;
+}
+.col9 {
+  width: 75%;
+}
+.col10 {
+  width: 83.33333333%;
+}
+.col11 {
+  width: 91.66666667%;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.btn-ac  ,.goods-txt .bc a{
+  display: inline-block;
+  width: auto;
+  min-width: 90px;
+  padding: 9px 20px;
+  margin: 0;
+  font-family: "Helvetica", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  line-height: 1.42;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.025em;
+  white-space: normal;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #e56c00;
+  background: #e56c00 url(../assets/images/button-arrow.png) no-repeat 150% 35%;
+  background-position: 150% 45%;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: padding-right 0.3s, background 0.3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn-ac:hover {
+  padding-right: 55px;
+  color: white;
+  background-position: 91% 35%;
+  background-size: 29px;
+}
+
+.el-button--primary {
+  background-color: #e56c00;
+  border-color: #e56c00;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+  background: #e56b00d5;
+  border-color: #e56b00d5;
+}
+
+.el-button--primary.is-active,
+.el-button--primary:active {
+  background: #e56b00d5;
+  border-color: #e56b00d5;
+}
+
+.brick-goods-list{
+  h1,h2,h3,h4{
+    text-align: left;
+  }
+}
