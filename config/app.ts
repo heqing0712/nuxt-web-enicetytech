@@ -1,7 +1,7 @@
 /**  跟应用全局相关的静态配置放在这里  */
 
 const AppConfig = {
-   baseUrl:'http://127.0.0.1:7001'
+  baseUrl: 'http://127.0.0.1:7004'
 }
 const StaticConfig = {
   MaxPageSize: 1000,
@@ -13,8 +13,8 @@ const StaticConfig = {
     libs: '/static/libs/libs.js',
     jdMarquee: '/static/libs/jdMarquee.js',
     zoom: '/static/libs/zoom.js',
-    aosJs:  '/static/libs/aos.js',
-    aosCss:'/static/libs/aos.css',
+    aosJs: '/static/libs/aos.js',
+    aosCss: '/static/libs/aos.css',
   }
 }
 export { AppConfig, StaticConfig }
