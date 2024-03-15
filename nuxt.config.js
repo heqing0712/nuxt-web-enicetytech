@@ -1,11 +1,11 @@
 
-import {AppConfig } from './config/app'
+import { AppConfig } from './config/app'
 export default {
   loading: false,
-  server:{
-    port:3001
+  server: {
+    port: 3004
     //host:'localhost'
- },
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-web',
@@ -15,8 +15,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {hid:'description',name:'description',content: '' },
-      {hid:'keywords',name:'keywords',content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      { hid: 'keywords', name: 'keywords', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -32,7 +32,7 @@ export default {
     //     config.devtool = '#source-map'
     //   }
     // }
-    },
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/styles/variables.scss',
@@ -61,9 +61,9 @@ export default {
     "@nuxtjs/proxy"
   ],
 
-  proxy:  {
+  proxy: {
     '/api': AppConfig.baseUrl,
-    '/public':{
+    '/public': {
       target: AppConfig.baseUrl,
       pathRewrite: { '^/public': '/static' }
     }
@@ -79,15 +79,15 @@ export default {
     productionGzip: true,
     productionGzipExtensions: ['js', 'css', 'svg'],
     babel: {
-        plugins: [
-            ["component", {"libraryName": "element-ui", "styleLibraryName": "theme-chalk"}]
-        ]
+      plugins: [
+        ["component", { "libraryName": "element-ui", "styleLibraryName": "theme-chalk" }]
+      ]
     }
 
   },
 
   router: {
-    middleware: ['i18n','init']
+    middleware: ['i18n', 'init']
   },
 
 
